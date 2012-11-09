@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/850/trunk/src/kernel/network/transp
+END
+tcp.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/838/trunk/src/kernel/network/transp/tcp.c
+END
+udp.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/850/trunk/src/kernel/network/transp/udp.c
+END

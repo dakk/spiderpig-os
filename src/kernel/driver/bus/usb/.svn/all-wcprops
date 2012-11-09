@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/838/trunk/src/kernel/driver/bus/usb
+END
+usb.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/838/trunk/src/kernel/driver/bus/usb/usb.h
+END
+usb.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/838/trunk/src/kernel/driver/bus/usb/usb.c
+END

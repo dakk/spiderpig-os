@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/838/trunk/src/kernel/driver/net
+END
+ne2k.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/838/trunk/src/kernel/driver/net/ne2k.c
+END
+rs232.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/kernel/driver/net/rs232.h
+END
+modem.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/kernel/driver/net/modem.c
+END
+ne2k.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/838/trunk/src/kernel/driver/net/ne2k.h
+END
+rtl8139.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/838/trunk/src/kernel/driver/net/rtl8139.c
+END
+modem.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/kernel/driver/net/modem.h
+END
+rtl8139.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/838/trunk/src/kernel/driver/net/rtl8139.h
+END
+rs232.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/kernel/driver/net/rs232.c
+END

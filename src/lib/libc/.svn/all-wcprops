@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/838/trunk/src/lib/libc
+END
+time.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/838/trunk/src/lib/libc/time.c
+END
+assert.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/838/trunk/src/lib/libc/assert.c
+END
+stdlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/838/trunk/src/lib/libc/stdlib.c
+END
+st5nM6oG
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/838/trunk/src/lib/libc/st5nM6oG
+END
+stdio.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/838/trunk/src/lib/libc/stdio.c
+END
+dirent.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/838/trunk/src/lib/libc/dirent.c
+END
+string.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/838/trunk/src/lib/libc/string.c
+END
+malloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/838/trunk/src/lib/libc/malloc.c
+END
+math.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/838/trunk/src/lib/libc/math.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/838/trunk/src/lib/libc/Makefile
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/838/trunk/src/kernel/driver/video/loadsplash
+END
+render.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/838/trunk/src/kernel/driver/video/loadsplash/render.c
+END
+loadsplash.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/838/trunk/src/kernel/driver/video/loadsplash/loadsplash.h
+END
+render.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/838/trunk/src/kernel/driver/video/loadsplash/render.h
+END
+loadsplash.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/838/trunk/src/kernel/driver/video/loadsplash/loadsplash.c
+END

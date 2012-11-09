@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/838/trunk/src/kernel/driver/block
+END
+ata_pio.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/838/trunk/src/kernel/driver/block/ata_pio.h
+END
+ata_pio.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/838/trunk/src/kernel/driver/block/ata_pio.c
+END

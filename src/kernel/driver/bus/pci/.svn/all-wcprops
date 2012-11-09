@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/840/trunk/src/kernel/driver/bus/pci
+END
+pci.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/838/trunk/src/kernel/driver/bus/pci/pci.h
+END
+pci_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/838/trunk/src/kernel/driver/bus/pci/pci_list.h
+END
+pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/840/trunk/src/kernel/driver/bus/pci/pci.c
+END

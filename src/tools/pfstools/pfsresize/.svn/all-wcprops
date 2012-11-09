@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/838/trunk/src/tools/pfstools/pfsresize
+END
+resize2fs.pfs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/838/trunk/src/tools/pfstools/pfsresize/resize2fs.pfs
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/838/trunk/src/tools/pfstools/pfsresize/main.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/838/trunk/src/tools/pfstools/pfsresize/Makefile
+END

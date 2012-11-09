@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/838/trunk/src/kernel/include/lang
+END
+english.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/838/trunk/src/kernel/include/lang/english.h
+END
+italian.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/838/trunk/src/kernel/include/lang/italian.h
+END
+sardinian.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/838/trunk/src/kernel/include/lang/sardinian.h
+END

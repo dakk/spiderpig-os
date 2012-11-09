@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/838/trunk/src/kernel/klibc
+END
+time.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/838/trunk/src/kernel/klibc/time.c
+END
+assert.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/838/trunk/src/kernel/klibc/assert.c
+END
+stdio.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/838/trunk/src/kernel/klibc/stdio.c
+END
+string.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/838/trunk/src/kernel/klibc/string.c
+END
+typeconv.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/838/trunk/src/kernel/klibc/typeconv.c
+END
+malloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/838/trunk/src/kernel/klibc/malloc.c
+END
+math.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/838/trunk/src/kernel/klibc/math.c
+END

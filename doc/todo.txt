@@ -1,0 +1,2 @@
+- Mettere la bish shell come driver
+- Add debug in all place

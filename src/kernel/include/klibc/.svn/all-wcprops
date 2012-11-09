@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/838/trunk/src/kernel/include/klibc
+END
+stddef.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/838/trunk/src/kernel/include/klibc/stddef.h
+END
+math.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/838/trunk/src/kernel/include/klibc/math.h
+END
+time.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/838/trunk/src/kernel/include/klibc/time.h
+END
+assert.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/838/trunk/src/kernel/include/klibc/assert.h
+END
+stdlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/838/trunk/src/kernel/include/klibc/stdlib.h
+END
+stdio.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/838/trunk/src/kernel/include/klibc/stdio.h
+END
+stdarg.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/838/trunk/src/kernel/include/klibc/stdarg.h
+END
+ctype.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/838/trunk/src/kernel/include/klibc/ctype.h
+END
+string.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/838/trunk/src/kernel/include/klibc/string.h
+END
+typeconv.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/838/trunk/src/kernel/include/klibc/typeconv.h
+END
+malloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/838/trunk/src/kernel/include/klibc/malloc.h
+END

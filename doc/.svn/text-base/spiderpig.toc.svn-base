@@ -1,0 +1,35 @@
+\select@language {italian}
+\contentsline {chapter}{\numberline {1}Introduzione}{7}
+\contentsline {section}{\numberline {1.1}Licenza}{7}
+\contentsline {section}{\numberline {1.2}Strumenti software}{7}
+\contentsline {section}{\numberline {1.3}\textlatin {\LaTeX }}{8}
+\contentsline {chapter}{\numberline {2}Bootloader}{9}
+\contentsline {section}{\numberline {2.1}Grub}{9}
+\contentsline {subsection}{Vesa Bios Extension}{9}
+\contentsline {subsubsection}{Vesa Bios Extension}{9}
+\contentsline {chapter}{\numberline {3}Kernel}{11}
+\contentsline {section}{\numberline {3.1}Modello di kernel}{11}
+\contentsline {subsection}{Kernel Monolitico}{11}
+\contentsline {subsubsection}{Kernel Monolitico}{11}
+\contentsline {subsection}{Microkernel}{11}
+\contentsline {subsubsection}{Microkernel}{11}
+\contentsline {subsection}{Kernel Ibrido}{11}
+\contentsline {subsubsection}{Kernel Ibrido}{11}
+\contentsline {section}{\numberline {3.2}Compilazione}{12}
+\contentsline {section}{\numberline {3.3}Astrazione hardware}{12}
+\contentsline {section}{\numberline {3.4}Gestore della memoria}{12}
+\contentsline {section}{\numberline {3.5}Tasking}{12}
+\contentsline {section}{\numberline {3.6}Device}{13}
+\contentsline {section}{\numberline {3.7}Driver}{13}
+\contentsline {section}{\numberline {3.8}Virtual File System}{13}
+\contentsline {subsection}{\numberline {3.8.1}DevFS}{14}
+\contentsline {subsection}{\numberline {3.8.2}TmpFS}{14}
+\contentsline {subsection}{\numberline {3.8.3}Initramfs}{14}
+\contentsline {section}{\numberline {3.9}Networking}{14}
+\contentsline {chapter}{\numberline {4}Applicazioni e toolchain}{15}
+\contentsline {section}{\numberline {4.1}Toolchain}{15}
+\contentsline {section}{\numberline {4.2}Applicazioni native}{15}
+\contentsline {subsection}{\numberline {4.2.1}Screenpig}{15}
+\contentsline {section}{\numberline {4.3}Porting}{15}
+\contentsline {chapter}{\numberline {5}Prestazioni}{17}
+\contentsline {chapter}{Bibliografia}{17}

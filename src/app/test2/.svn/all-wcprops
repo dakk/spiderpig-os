@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/838/trunk/src/app/test2
+END
+test2
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/838/trunk/src/app/test2/test2
+END
+main.asm
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/838/trunk/src/app/test2/main.asm
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/838/trunk/src/app/test2/Makefile
+END

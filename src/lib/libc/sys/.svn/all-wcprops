@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/838/trunk/src/lib/libc/sys
+END
+socket.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/838/trunk/src/lib/libc/sys/socket.c
+END

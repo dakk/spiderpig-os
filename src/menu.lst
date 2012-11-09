@@ -1,0 +1,32 @@
+timeout 1
+
+splashimage=/grub.xpm.gz
+
+title	SpiderPigOS - Text
+	root (cd)
+	kernel /kernel
+	module /initram.img
+	boot	
+
+
+title	SpiderPigOS - GUI
+	root (cd)
+	kernel /kernel
+	module /initram.img
+	vbeset 0x115
+	boot
+
+
+title	SpiderPigOS - Text (without initramfs) 
+	root (cd)
+	kernel /kernel
+	boot	
+
+
+title	SpiderPigOS - GUI (without initramfs)
+	root (cd)
+	kernel /kernel
+	vbeset 0x115
+	boot
+
+

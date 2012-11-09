@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/847/trunk/src/kernel/driver
+END
+smbios.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/847/trunk/src/kernel/driver/smbios.h
+END
+smbios.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/847/trunk/src/kernel/driver/smbios.c
+END

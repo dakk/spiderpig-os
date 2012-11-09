@@ -1,0 +1,21 @@
+
+
+
+
+|
+	- tcp
+	- upd
+	
+|
+	- ip
+	- arp
+	- icmp
+	
+| livello DATALINK
+	- ethernet
+	- pppoe
+
+| livello driver
+	- driver
+		- rtl8139
+		- serial

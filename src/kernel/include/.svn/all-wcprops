@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/850/trunk/src/kernel/include
+END
+syscall.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/838/trunk/src/kernel/include/syscall.h
+END
+driver.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/838/trunk/src/kernel/include/driver.h
+END
+arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/838/trunk/src/kernel/include/arch.h
+END
+multiboot.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/838/trunk/src/kernel/include/multiboot.h
+END
+device.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/838/trunk/src/kernel/include/device.h
+END
+log.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/838/trunk/src/kernel/include/log.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/838/trunk/src/kernel/include/types.h
+END
+main.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/849/trunk/src/kernel/include/main.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/840/trunk/src/kernel/include/config.h
+END
+bish.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/847/trunk/src/kernel/include/bish.h
+END
+video.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/838/trunk/src/kernel/include/video.h
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/838/trunk/src/kernel/include/debug.h
+END

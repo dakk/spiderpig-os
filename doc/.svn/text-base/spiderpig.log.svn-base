@@ -1,0 +1,222 @@
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=latex 2010.2.6)  7 MAR 2010 13:00
+entering extended mode
+ Source specials enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**spiderpig
+(./spiderpig.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2006/05/05 v1.1b Input encoding file
+))
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/share/texmf-dist/tex/generic/babel/italian.ldf
+Language: italian 2008/03/14 v1.2t Italian support from the babel system
+
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Italian'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@italian = a dialect from \language0
+Package babel Info: Making " an active character on input line 94.
+))
+pdfTeX warning (\pdfinfo): not allowed in DVI mode (\pdfoutput <= 0); ignoring 
+it
+(./spiderpig.aux
+
+LaTeX Warning: Label `lamport-latex2' multiply defined.
+
+
+LaTeX Warning: Label `lamport-latex2' multiply defined.
+
+
+LaTeX Warning: Label `lamport-latex2' multiply defined.
+
+)
+\openout1 = `spiderpig.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 17.
+ (/usr/share/texmf-dist/tex/generic/babel/lgrcmr.fd
+File: lgrcmr.fd 2008/06/17 v2.3 Greek Computer Modern
+)
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 18.
+ [1
+
+
+] [2
+
+] (./spiderpig.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `spiderpig.toc'.
+
+[3] [4
+
+] (./spiderpig.lot)
+\tf@lot=\write4
+\openout4 = `spiderpig.lot'.
+
+ [5] [6
+
+]
+Capitolo 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--44
+
+ []
+
+
+Overfull \hbox (32.24684pt too wide) in paragraph at lines 45--49
+[][]\OT1/cmtt/m/n/10 This program is free software: you can redistribute it and
+/or modify
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 45--49
+\OT1/cmtt/m/n/10 it under the terms of the GNU General Public License as publis
+hed by
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 45--49
+\OT1/cmtt/m/n/10 the Free Software Foundation, either version 3 of the License,
+ or (at
+ []
+
+
+Overfull \hbox (0.74712pt too wide) in paragraph at lines 50--54
+[][]\OT1/cmtt/m/n/10 This program is distributed in the hope that it will be us
+eful,
+ []
+
+
+Overfull \hbox (64.49643pt too wide) in paragraph at lines 50--54
+\OT1/cmtt/m/n/10 but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY
+ []
+
+
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 50--54
+\OT1/cmtt/m/n/10 or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Publi
+c License
+ []
+
+
+Overfull \hbox (11.24702pt too wide) in paragraph at lines 55--59
+[][]\OT1/cmtt/m/n/10 You should have received a copy of the GNU General Public 
+License
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 55--59
+\OT1/cmtt/m/n/10 along with this program. If not, see <http://www.gnu.org/licen
+ses/>. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
+
+ []
+
+[7]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 81.
+ [8]
+Capitolo 2.
+[9
+
+] [10
+
+]
+Capitolo 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--156
+
+ []
+
+[11] [12] [13] [14]
+Capitolo 4.
+[15
+
+] [16]
+Capitolo 5.
+[17
+
+] [18
+
+] [19] (./spiderpig.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 730 strings out of 495070
+ 9698 string characters out of 1183057
+ 63520 words of memory out of 3000000
+ 3953 multiletter control sequences out of 10000+50000
+ 10411 words of font info for 37 fonts, out of 3000000 for 5000
+ 28 hyphenation exceptions out of 8191
+ 24i,8n,24p,150b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on spiderpig.dvi (19 pages, 34520 bytes).

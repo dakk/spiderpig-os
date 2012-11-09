@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/838/trunk/src/kernel/include/mm
+END
+mm.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/838/trunk/src/kernel/include/mm/mm.h
+END
+paged.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/kernel/include/mm/paged.h
+END
+phys.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/838/trunk/src/kernel/include/mm/phys.h
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/838/trunk/src/kernel/driver/video
+END
+vesa.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/838/trunk/src/kernel/driver/video/vesa.c
+END
+vesa.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/838/trunk/src/kernel/driver/video/vesa.h
+END

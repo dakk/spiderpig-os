@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/840/trunk/src/kernel/configs
+END
+current_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/840/trunk/src/kernel/configs/current_config.h
+END
+current.am
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/840/trunk/src/kernel/configs/current.am
+END

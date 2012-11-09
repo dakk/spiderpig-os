@@ -1,0 +1,370 @@
+\documentclass[a4paper,10pt]{book}
+
+\usepackage[latin1]{inputenc}
+\usepackage[italian]{babel}
+
+\title{SpiderpigOS}
+\author{Davide Gessa}
+\date{09-03-2010}
+
+\pdfinfo{%
+  /Title    (SpiderpigOS)
+  /Author   (Davide Gessa)
+  /Subject  ()
+  /Keywords (spiderpig osdev os)
+}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+\setcounter{tocdepth}{4}
+%\listoffigures
+\listoftables
+
+
+\chapter{Introduzione}
+SpiderpigOS nasce con l'idea di creare un progetto che permettesse di ampliare
+le mie conoscenze informatiche riguardo i processori (ed in generale l'hardware)
+ed i sistemi operativi, e per produrre poi un progetto che riguardasse il 
+programma svolto nel triennio dell'indirizzo informatica abacus, da poter poi 
+eventualmente presentare all'esame.
+Il progetto proseguira' anche successivamente, sara' possibile vederne lo sviluppo sul sito
+spiderpig.osdev.it
+
+\section{Licenza}
+Il proggetto e' rilasciato interamente sotto licenza GPLv3, e' riportato qui di seguito l'header presente
+in ogni file sorgente del progetto:
+\newline
+\newline 
+\ttfamily
+\textit
+    SpiderpigOS
+    Copyright (C) 2009 - 2010 Davide Gessa
+    
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+\rmfamily
+\newline
+
+
+\section{Strumenti software}
+Ecco una lista dei software principali utilizzati per realizzare il progetto (compilatori, ide, emulatori).
+Da sottolineare che tutti sono free software e opensource, e che lo sviluppo e' avvenuto coi sistemi 
+gnu/linux gentoo, gnu/freebsd gentoo e haiku-os, anch'essi free e open.
+
+\begin{description}
+\item[gcc] compilatore per il linguaggio C
+\item[make] sistema per facilitare la compilazione
+\item[nasm] compilatore per il linguaggio assembler
+\item[grub] bootloader
+\item[qemu] emulatore di computer per varie architetture
+\item[bochs] emulatore di computer x86
+\item[geany] C ide
+\item[winefish] latex ide 
+\item[subversion] controllo di revisione
+\item[latex] compilatore per il linguaggio \LaTeX
+\end{description}
+
+
+
+\section{\LaTeX}
+Per scrivere la documentazione del sistema e' stato utilizzato il linguaggio di markup
+\LaTeX, che permette di preparare dei testi basati su \TeX, un linguaggio di composizione 
+tipografica. Utilizzare \LaTeX, permette di risparmiare un tempo notevole per quanto riguarda
+la formattazione delle pagine, la creazione degli indici, la visualizzazione di formule matematiche
+e molto altro, e per questo motivo e' utilizzato da gran parte di accademici, scienziati, matematici
+e ingegneri. \LaTeX e' distribuito come software libero ed e' disponibile su molte piattaforme.
+
+
+
+
+
+\chapter{Bootloader}
+Il bootloader e' il software che ha il compito di caricare il kernel del sistema da un unita' di archiviazione
+(come cd, harddisk, floppy, etc) alla memoria centrale della macchina, e succesivamente
+di mandarlo in esecuzione.
+Non essendo il bootloader lo scopo del progetto, ho deciso di utilizzarne uno gia' esistente, e la mia
+scelta e' ricaduta su grub. 
+
+\section{Grub}
+Grub e' uno dei bootloader piu' utilizzati nell'ambito Linux e *BSD.
+Grazie alla sua flessibilita', e' possibile utilizzarlo su molteplici dispositivi (floppy, cd, usb), 
+e con molteplici opzioni; e' possibile configurarlo semplicemente modificando un file di configurazione.
+
+\addcontentsline{toc}{subsection}{Vesa Bios Extension}
+\subsubsection{Vesa Bios Extension}
+Con l'utilizzo di una patch chiamata "vbegrub", grub introduce delle funzioni che permettono di
+impostare una risoluzione grafica del vbe e successivamente caricare il sistema. Questa patch
+e' stata utile in SpiderpigOS in quanto ha permesso di implementare una semplice gui, senza dover
+scrivere un driver per la grafica vesa, o senza dover creare un processo per l'emulazione della 
+modalita' reale, che quindi permetteva di utilizzare gli interrupt e cambiare modalita' grafica.
+
+
+
+
+
+
+
+\chapter{Kernel}
+Il "kernel" e' la parte fondamentale del sistema operativo: esso infatti si occupa in genere, 
+di gestire la memoria, i task, i file system, il networking, e tanto altro; le funzioni del kernel
+pero' variano considerevolmente a seconda del modello di riferimento.
+
+\section{Modello di kernel}
+Uno dei primi problemi all'avvio della realizzazione di SpiderpigOS, e'
+stata la scelta del modello di kernel da utilizzare; i modelli
+piu' usati sono il micro kernel, il kernel monolitico ed il kernel ibrido:
+
+\addcontentsline{toc}{subsection}{Kernel Monolitico}
+\subsubsection{Kernel Monolitico}
+Kernel contenente al suo interno la maggior parte delle features implementate nel sistema.
+L'inconveniente e' che se e' presente un errore al suo interno, compromette il funzionamento
+dell'intero sistema.
+
+\addcontentsline{toc}{subsection}{Microkernel}
+\subsubsection{Microkernel}
+Kernel con funzionalita' molto ridotte, in genere offre solo un interfaccia base per l'hardware,
+e le funzionalita' come filesystem, audio, network sono offerte da dei server avviati a livello utente.
+Il lato positivo di questo modello di kernel e' che se una parte del sistema crasha (filesystem, audio o altro)
+puo' essere riavviata senza compromettere il funzionamento dell'intero sistema.
+
+\addcontentsline{toc}{subsection}{Kernel Ibrido}
+\subsubsection{Kernel Ibrido}
+E' una via di mezzo tra microkernel e kernel monolitco: in genere il kernel offre un interfaccia per
+l'hardware e il livello utente, gestione di task, filesystem, etc, mentre a livello utente i server 
+offrono ai programmi le varie funzionalita' piu' ad alto livello del sistema.
+\newline
+\newline
+\newline
+Questa descrizione e' un po' imprecisa, dato che da sistema a sistema, gli sviluppatori fanno scelte diverse,
+pur avendo come riferimento uno dei modelli base. La scelta per questo sistema e' ricaduta sul kernel di tipo
+ibrido: al momento pero' tutte le funzionalita' del sistema sono implementate all'interno del kernel in quanto
+non e' ancora pienamente supportato il caricamento di programmi esterni, ma appena il supporto sara'  soddisfacente,
+la maggior parte delle funzionalita' ora presenti a livello kernel saranno spostate a livello utente sotto forma
+di applicazioni server.
+
+
+
+\section{Compilazione}
+Il sistema di compilazione del sistema, ha un interfaccia in linguaggio python che permette di scegliere i 
+componenti da compilare all'interno del kernel; i componenti disponibili sono registrati nello stesso file python in una 
+struttura contenente le dipendenze, i define da dichiarare, i file oggetto da creare, i flags da passare
+al compilatore, le architetture supportate, etc; il programma
+inoltre permette di scegliere l'architettura da compilare e la lingua per l'output dei messaggi del kernel. 
+E' anche possibile utilizzare dei preset di configurazione presalvati o gia' disponibili con i sorgenti nella
+sottocartella cartella config.
+Il programma e' avviabile tramite il commando seguente, eseguito nella cartella "src/kernel":
+
+\begin{center}
+\texttt{python kselect.py}
+\end{center}
+
+Dopo che lo script avra' creato i file di configurazione e creato i link simbolici necessari, e' possibile
+utilizzare make per compilare l'intero kernel. Make produrra' un file binario chiamato "kernel", che puo' essere
+eseguito dal bootloader.
+
+
+\section{Astrazione hardware}
+Nel kernel e' presente un sistema che permette di implementare diverse architetture senza apportare grandi
+modifiche. Ogni architettura dovra' offrire l'implementazione delle funzioni standard stabilite nell'header 
+arch.h, dei driver specifici per far funzionare il sistema, uno script per il linker, ed un implementazione in
+assembly dell'avvio della funzione principale del kernel.
+
+\section{Gestore della memoria}
+SpiderpigOS divide la memoria del computer in pagine da 4kb (e' possibile modificare questo valore), e tiene
+traccia delle pagine occupate, tramite un sistema costituito da una mappa di bit; per registrare la dimensione 
+delle allocazioni effettuate, e' presente una lista che memorizza indirizzo base e numero di byte allocati,
+per permettere in futuro di liberare la memoria. 
+Successivamente sara' implementata la paginazione hardware per le architetture che la supportano,
+per migliorare la protezione della memoria tra i vari processi, ed un sistema per lo swapping delle pagine su
+memoria di archiviazione.
+
+\section{Tasking}
+SpiderpigOS e' un sistema preemtive multitasking; ad ogni task durante la creazione, viene allocata una 
+struttura contenente le informazioni necessarie, come indirizzo di memoria, terminale, etc. Durante 
+l'inizializzazione del tasking e' possibile scegliere la funzione che eseguira' il task switching, per 
+ora e' implementato solo il metodo round robin. 
+
+
+\section{Device}
+ 
+\section{Driver}
+L'implementazione dei driver\footnote{interfaccia tra hardware e software} e' presente una struttura di 
+driver generico, che contiene al suo interno una variabile che ne indica il tipo; a 
+seconda del tipo viene allocata la struttura specifica che contiene i metodi generici di quel tipo. 
+Tramite questo metodo e' possibile quindi implementare filesystem, device driver, e altri contenuti del sistema.
+
+\section{Virtual File System}
+Durante l'inizializzazione del vfs resenta una struttura a livelli per quanto riguarda le operazioni su file. Il livello
+piu' alto e' il VFS\footnote{Virtual File System}, l'unico livello accessibile all'utente che offre
+tutte le funzioni tipiche della gestione file e filesystem (apertura, lettura, chiusura, scrittura, 
+mounting, umounting, etc) indipendentemente dal filesystem e dall'hardware che viene utilizzato. 
+
+\begin{table}[h]
+	\begin{center}
+	    \begin{tabular}{ | c |}
+	    \hline
+	    VFS    \\ \hline
+	    File System   \\ \hline
+	    Device driver   \\ \hline
+	    Device   \\ \hline
+	    \end{tabular}
+	\end{center}
+	\caption{Livelli per le operazioni sui fs}
+	\label{tab:fs_levels}
+\end{table}
+
+Il VFS e' una struttura di nodi ad albero. 
+
+\begin{table}[h]
+	\begin{center}
+	    \begin{tabular}{ | c | c |}
+	    \hline
+	     Attributo & Spiegazione     \\ \hline
+	     Nome & Nome del nodo (univoco in directory)    \\ \hline
+	     Numero & Numero del nodo (univoco nell'albero) \\ \hline
+	 	 Tipo & Tipo di nodo (device, link, dir, file) \\ \hline
+		 Ow & Indica se il nodo e' temporaneo \\ \hline
+		 Next, Prev & Puntatori a prossimo e precedente nodo \\ \hline
+		 Parent, Childs & Puntatori a padre e figli del nodo \\ \hline
+	    \end{tabular}
+	\end{center}
+	\caption{Struttura di un nodo}
+	\label{tab:fs_node}
+\end{table}
+
+Quando viene richiesto un determinato path, il VFS controlla se il path esiste, poi guarda 
+la strada che deve effettuare per arrivare al path, alloca dei nodi temporanei per custodire le informazioni
+necessarie e interroga i filesystem interessati.
+
+\subsection{DevFS}
+E' fondamentalmente un filesystem virtuale che permette ai device a cui e' assocciato un driver, di essere
+trattati come dei file. Le informazioni dei device e dei driver risiedono in dei nodi allocati
+nella struttura principale del vfs, che possono essere eliminati solamente nel caso il device non sia 
+piu' disponibile; i programmi di interfacciamento utilizzeranno questi file per utilizzare 
+l'hardware a livello utente, anche se sono presenti anche delle syscall per ottenere il controllo di
+un device. 
+
+\subsection{TmpFS}
+Utilizza la ram come device di archiviazione.
+
+\subsection{Initramfs}
+Sfrutta la funzionalita' del bootloader che permette di caricare in ram un file.
+
+
+
+
+
+
+
+\section{Networking}
+Per quanto riguarda le funzioni di rete e' stato implementato uno stack di protocolli
+seguendo il modello gerarchico tcp-ip.
+
+\begin{table}[h]
+	\begin{center}
+	    \begin{tabular}{ | c | c |}
+	    \hline
+	     Livello & Protocolli implementati     \\ \hline
+		 Trasporto & Tcp, Udp\\ \hline
+		 Rete & Icmp, Ip (Ipv4)\\ \hline
+		 Link & PPP, Eth, Arp\\ \hline
+	    \end{tabular}
+	\end{center}
+	\caption{Stack dei protocolli}
+	\label{tab:net_stack}
+\end{table}
+
+Ogni interfaccia di rete possiede una sua struttura, dove viene indicato il nome,
+il device, il relativo driver e la struttura con le funzioni e le informazioni di gestione 
+del livello di datalink.
+
+Un device che riceve un pacchetto, lo passa al corrispettivo livello di datalink (per esempio, se e' un modem 
+lo passa al protocollo ppp, se e' una scheda ethernet lo passa al protocollo eth). Questo livello si occupera'
+di togliere il suo header e di mandare il pacchetto al gestore del livello di rete a cui il pacchetto e' destinato
+(ad esempio, se e' un pacchetto icmp, al protocollo icmp); cosi' via, anche il protocollo a livello di rete
+togliera' il suo header ricavando le informazioni necesarie per indirizzare il pacchetto al protocollo destinato
+del livello superiore. 
+
+
+
+\chapter{Applicazioni e toolchain}
+Il sistema e' corredato di qualche applicazione, del toolchain di compilazione e delle librerie che si e' deciso
+di implementare. Fondamentalmente il sistema a livello utente mira a essere compatibile allo standard posix,
+consentendo quindi di compilare senza apportare modifiche applicazioni posix. 
+
+\section{Toolchain}
+Il toolchain e' un insieme di strumenti che ci permettono di compilare applicazioni per spiderpig
+da un altra piattaforma.
+
+\section{Applicazioni native}
+C'e' pero' un set di applicazioni native del sistema:
+
+\subsection{Screenpig}
+Screenpig e' un gestore di finestre; fondamentalmente mira a diventare il server per l'interfaccia grafica
+standard del sistema. Per ora e' possibile provare una bozza compilando il programma all'interno del kernel.
+
+\section{Porting}
+Sarebbe un po' inutile pero', scrivere tutto il software interamente da zero. Come abbiamo gia' detto
+la compatibilita' con lo standard posix semplifica il porting di applicazioni gia' esistenti per sistemi operativi
+di tipo *nix. Tra i migliori porting in lista d'attesa abbiamo:
+
+\begin{description}
+\item[bash] shell
+\item[make] sistema per facilitare la compilazione
+\item[nasm] compilatore per il linguaggio assembler
+\item[nano] editor di testo da riga di commando
+\item[libncurses] libreria per la grafica ncurses
+\item[subversion] controllo di revisione
+\item[links] browser testuale che utilizza ncurses
+\end{description}
+
+
+\chapter{Prestazioni}
+In questo capitolo trattero' le prestazioni del sistema in esecuzione, effettuando dei confronti con altri
+sistemi operativi. Prima di tutto propongo una tabella coi limiti del sistema: 
+
+\begin{table}[h]
+	\begin{center}
+	    \begin{tabular}{ | c | c | }
+	    \hline
+	    Caratteristica & Quantita' \\ \hline
+	    File aperti & 32.000  \\ \hline
+	    FS montati in contemporanea & 0 \\ \hline
+	    Task in esecuzione & 0   \\ \hline
+	    Numero massimo allocazioni & 4096 \\ \hline
+	    Driver caricati & 0  \\ \hline	    
+	    \end{tabular}
+	\end{center}
+	\caption{Prestazioni generiche}
+	\label{tab:generic_benchmarks}
+\end{table}
+
+
+
+
+\addcontentsline{toc}{chapter}{Bibliografia}
+%\chapter{Bibliografia}
+\begin{thebibliography}{Bibliografia}
+	\bibitem{lamport-latex2} Intel Manuals
+	\bibitem{lamport-latex2} http://www.osdev.it
+	\bibitem{lamport-latex2} http://wiki.unix-below.net/doku.php?id=osdev
+	\bibitem{lamport-latex2} http://www.osdev.org 
+\end{thebibliography}
+
+\appendix
+
+
+\end{document}
+

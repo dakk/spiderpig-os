@@ -1,0 +1,56 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#include <lang/english.h>
+#define X86
+#define BIT32
+#define DSMBIOS
+#define EELF
+#define DKEYBOARD
+#define DMOUSE
+#define DRANDOM
+#define DVESA
+#define VESA
+#define VBE
+#define FSINITRAMFS
+#define LOADSPLASH
+#define DPCI
+#define PCI
+#define DUSB
+#define USB
+#define DISA
+#define ISA
+#define DATAPIO
+#define FSPFS
+#define FSTMPFS
+#define DNE2K
+#define DRTL8139
+#define DRS232
+#define DMODEM
+#define NETWORK
+#define NIPV4
+#define IPV4
+#define NICMP
+#define NARP
+#define NETH
+#define NBT
+#define NPPP
+#define NWIFI
+#define NLO
+#define NTCP
+#define NUDP
+#define NDNS
+#define CRC32
+#define MD5
+#define MPAGING
+#define PAGING
+#define LOG
+#define SHELL
+#define BISH
+#define DEBUG
+#define TEST
+#define SMP
+#define MULTIPROC
+
+
+#endif

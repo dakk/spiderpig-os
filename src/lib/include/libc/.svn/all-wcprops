@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/838/trunk/src/lib/include/libc
+END
+stddef.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/lib/include/libc/stddef.h
+END
+math.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/838/trunk/src/lib/include/libc/math.h
+END
+time.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/838/trunk/src/lib/include/libc/time.h
+END
+assert.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/lib/include/libc/assert.h
+END
+stdlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/lib/include/libc/stdlib.h
+END
+stdio.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/838/trunk/src/lib/include/libc/stdio.h
+END
+stdarg.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/lib/include/libc/stdarg.h
+END
+ctype.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/838/trunk/src/lib/include/libc/ctype.h
+END
+dirent.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/lib/include/libc/dirent.h
+END
+string.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/lib/include/libc/string.h
+END
+malloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/lib/include/libc/malloc.h
+END

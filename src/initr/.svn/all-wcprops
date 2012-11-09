@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/838/trunk/src/initr
+END
+test
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/838/trunk/src/initr/test
+END
+math.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/838/trunk/src/initr/math.h
+END
+splash.raw
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/838/trunk/src/initr/splash.raw
+END
+time.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/838/trunk/src/initr/time.h
+END
+assert.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/838/trunk/src/initr/assert.h
+END
+test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/838/trunk/src/initr/test.sh
+END
+string.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/838/trunk/src/initr/string.h
+END
+malloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/838/trunk/src/initr/malloc.h
+END
+test.txt
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/838/trunk/src/initr/test.txt
+END
+stddef.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/838/trunk/src/initr/stddef.h
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/838/trunk/src/initr/license.txt
+END
+test2
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/838/trunk/src/initr/test2
+END
+spiderpig.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/838/trunk/src/initr/spiderpig.txt
+END
+stdlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/838/trunk/src/initr/stdlib.h
+END
+stdio.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/838/trunk/src/initr/stdio.h
+END
+ctype.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/838/trunk/src/initr/ctype.h
+END
+stdarg.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/838/trunk/src/initr/stdarg.h
+END
+dirent.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/838/trunk/src/initr/dirent.h
+END
+init.sh
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/838/trunk/src/initr/init.sh
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/838/trunk/src/initr/Makefile
+END

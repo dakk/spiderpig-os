@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86
+END
+task.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/task.c
+END
+video.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/video.c
+END
+dt.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/dt.c
+END
+io.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/io.c
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/types.h
+END
+math.s
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/math.s
+END
+mm.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/mm.c
+END
+link.ld
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/link.ld
+END
+apic.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/apic.c
+END
+archinc.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/archinc.h
+END
+dt.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/dt.h
+END
+arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/arch.c
+END
+calls.s
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/calls.s
+END
+tss.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/tss.h
+END
+timer.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/timer.c
+END
+paging.s
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/paging.s
+END
+cpu.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/cpu.c
+END
+syscall.s
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/syscall.s
+END
+clock.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/838/trunk/src/kernel/arch/x86/clock.c
+END

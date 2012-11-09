@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/840/trunk/src/kernel/driver/input
+END
+keyboard.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/840/trunk/src/kernel/driver/input/keyboard.c
+END
+keyboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/838/trunk/src/kernel/driver/input/keyboard.h
+END
+mouse.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/838/trunk/src/kernel/driver/input/mouse.c
+END
+mouse.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/838/trunk/src/kernel/driver/input/mouse.h
+END

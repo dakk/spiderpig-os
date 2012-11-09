@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/838/trunk/src/app/system/echo
+END
+echo.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/838/trunk/src/app/system/echo/echo.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/838/trunk/src/app/system/echo/Makefile
+END
+echo
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/838/trunk/src/app/system/echo/echo
+END

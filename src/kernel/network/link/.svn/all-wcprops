@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/850/trunk/src/kernel/network/link
+END
+wifi.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/838/trunk/src/kernel/network/link/wifi.c
+END
+ppp.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/kernel/network/link/ppp.c
+END
+eth.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/kernel/network/link/eth.c
+END
+arp.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/kernel/network/link/arp.c
+END
+bt.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/838/trunk/src/kernel/network/link/bt.c
+END
+lo.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/850/trunk/src/kernel/network/link/lo.c
+END

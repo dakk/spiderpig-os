@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/838/trunk/src/lib/include/libc/system
+END
+syscall.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/838/trunk/src/lib/include/libc/system/syscall.h
+END
+driver.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/838/trunk/src/lib/include/libc/system/driver.h
+END
+sysutils.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/838/trunk/src/lib/include/libc/system/sysutils.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/838/trunk/src/lib/include/libc/system/types.h
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/838/trunk/src/kernel/fs
+END
+mount.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/838/trunk/src/kernel/fs/mount.c
+END
+devfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/838/trunk/src/kernel/fs/devfs.c
+END
+fsop.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/838/trunk/src/kernel/fs/fsop.c
+END
+fs.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/838/trunk/src/kernel/fs/fs.c
+END

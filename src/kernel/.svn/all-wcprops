@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/850/trunk/src/kernel
+END
+device.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/840/trunk/src/kernel/device.c
+END
+kernel
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/850/trunk/src/kernel/kernel
+END
+kselect.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/840/trunk/src/kernel/kselect.py
+END
+log.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/838/trunk/src/kernel/log.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/840/trunk/src/kernel/main.c
+END
+bish.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/847/trunk/src/kernel/bish.c
+END
+video.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/838/trunk/src/kernel/video.c
+END
+debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/838/trunk/src/kernel/debug.c
+END
+link.ld
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/838/trunk/src/kernel/link.ld
+END
+syscall.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/838/trunk/src/kernel/syscall.c
+END
+driver.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/840/trunk/src/kernel/driver.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/838/trunk/src/kernel/Makefile
+END

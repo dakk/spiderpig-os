@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/838/trunk/src/kernel/driver/crypto
+END
+crc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/838/trunk/src/kernel/driver/crypto/crc32.h
+END
+md5.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/838/trunk/src/kernel/driver/crypto/md5.c
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/838/trunk/src/kernel/driver/crypto/md5.h
+END
+crc32.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/838/trunk/src/kernel/driver/crypto/crc32.c
+END

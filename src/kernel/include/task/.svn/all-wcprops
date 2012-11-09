@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/838/trunk/src/kernel/include/task
+END
+task.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/838/trunk/src/kernel/include/task/task.h
+END
+message.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/838/trunk/src/kernel/include/task/message.h
+END
+elf.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/838/trunk/src/kernel/include/task/elf.h
+END
+term.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/838/trunk/src/kernel/include/task/term.h
+END

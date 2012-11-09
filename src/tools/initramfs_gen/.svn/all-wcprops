@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/838/trunk/src/tools/initramfs_gen
+END
+initramfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/838/trunk/src/tools/initramfs_gen/initramfs.h
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/838/trunk/src/tools/initramfs_gen/main.c
+END
+initramfs_gen
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/838/trunk/src/tools/initramfs_gen/initramfs_gen
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/838/trunk/src/tools/initramfs_gen/Makefile
+END
+initram.img
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/838/trunk/src/tools/initramfs_gen/initram.img
+END

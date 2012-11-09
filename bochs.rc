@@ -1,0 +1,26 @@
+# how much memory the emulated machine will have
+megs: 32
+
+# filename of ROM images
+romimage: file=/usr/share/bochs/BIOS-bochs-latest
+vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
+
+# what disk images will be used 
+ata0: enabled=1, ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14
+ata0-master: type=cdrom, path="image.iso", status=inserted
+
+mouse: enabled=1
+i440fxsupport: enabled=1
+
+# choose the boot disk.
+boot: cdrom
+
+
+# where do we send log messages?
+log: bochsout.txt
+
+mouse: enabled=0
+
+display_library: x, option="gui_debug"
+
+#gdbstub: enabled=1, port=950, text_base=0, data_base=0, bss_base=0 

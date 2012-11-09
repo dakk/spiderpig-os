@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/850/trunk/src
+END
+menu.lst
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/838/trunk/src/menu.lst
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/838/trunk/src/Makefile.am
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/838/trunk/src/Makefile
+END
